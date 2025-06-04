@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authentication</title>
+    <title>Authentication - Sign Up</title>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
     <style>
         :root{
@@ -77,14 +77,14 @@
         
         <div class="signupPage">
         <h2>Sign Up</h2>
-        <form action="/user" method="post">
+        <form action="/user/signup" method="post">
             <div class="inputFields">
                 <label for="name">Enter your name : </label>
-                <input type="text" name="name">
+                <input type="text" name="name" required>
                 <label for="email">Enter your email id : </label>
-                <input type="email" name="email">
+                <input type="email" name="email" required>
                 <label for="password">Enter your password : </label>
-                <input type="password" name="password">
+                <input type="password" name="password" required>
             </div>
             <button type="submit">Submit</button>
         </form>
