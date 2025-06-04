@@ -111,7 +111,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-**Mohammad Salman Khan**
+**M Salman Khan**
 - GitHub: [@M-Salman-khan](https://github.com/M-Salman-khan)
 
 ## Acknowledgments
