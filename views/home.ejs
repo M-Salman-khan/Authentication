@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth - Home</title>
+    <style>
+        :root{
+            color-scheme: dark;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100dvh;
+            width: 100dvw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* div{
+            border: 2px solid black;
+            height: 150px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        } */
+        button{
+            padding: 10px 20px;
+            font-size: 20px;
+            border: 2px solid black;
+            background-color: white;
+            margin-right: 30px;
+            color: black;
+        }
+        button:hover{
+            background-color: transparent;
+            cursor: pointer;
+            color: white;
+            border-color: white;
+            transition-duration: 0.4s;
+        }
+        .login{
+            background-color: transparent;
+            color: white;
+            border-color: white;
+        }
+        .login:hover{
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="location.href='/signup'">Sign Up</button>
+        <button class="login" onclick="location.href='/login'">Log In</button>
+    </div>
+</body>
+</html>
