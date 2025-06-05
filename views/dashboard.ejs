@@ -13,9 +13,15 @@
         :root{
             color-scheme: dark;
         }
+        .wc{
+            margin: 20px;
+        }
+        span{
+            color: rgb(3, 178, 247);
+        }
     </style>
 </head>
 <body>
-    <h1>You are Logged In !</h1>
+    <h1>You are Logged In ! Welcome  <span><%- locals.user.name %></span></h1>
 </body>
 </html>
