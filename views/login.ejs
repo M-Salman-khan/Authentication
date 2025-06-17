@@ -24,11 +24,10 @@
         .loginPage{
             border: 2px solid white;
             width: 400px;
-            /* height: 50%; */
-            padding: 20px;
+            padding: 30px;
         }
-        .loginPage h2{
-            margin-bottom: 20px;
+        .loginPage h1{
+            margin-bottom: 40px;
             width: fit-content;
             margin-top: 10px;
             border-bottom: 4px solid white;
@@ -44,25 +43,29 @@
             display: flex;
             flex-direction: column;
         }
+        input{
+            padding: 7px 2px;
+            border: none;
+            border-bottom: 2px solid white;
+            background-color: transparent;
+            outline: none;
+        }
         label{
             margin-top: 20px;
             margin-bottom: 10px;
         }
-        button{
+        form button{
             margin-top: 40px;
             padding: 10px 30px;
             background-color: white;
             color: black;
             border: 2px solid white;
         }
-        button:hover{
+        form button:hover{
             background-color: transparent;
             color: white;
             cursor: pointer;
             transition-duration: 0.4s;
-        }
-        input{
-            padding: 7px 10px;
         }
     </style>
 </head>
@@ -70,7 +73,7 @@
 
         
         <div class="loginPage">
-        <h2>Log In</h2>
+        <h1>Log In</h1>
         <form action="/user/login" method="post">
             <div class="inputFields">
                 <label for="email">Enter your email id : </label>
